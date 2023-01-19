@@ -60,7 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://djo1975.github.io/Portfolio--online-version.github.io/)
+- [Live Demo Link](https://djo1975.github.io/Awesome-books-refactor/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
