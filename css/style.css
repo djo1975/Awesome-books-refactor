@@ -12,6 +12,7 @@ body {
 
 #book-collection {
   text-align: center;
+  height: 11rem;
 }
 
 h1 {
@@ -27,6 +28,8 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   border: 1px solid;
+  height: 241px;
+  overflow-y: scroll;
 }
 
 .book {

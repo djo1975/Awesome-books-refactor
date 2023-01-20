@@ -60,8 +60,12 @@ addBookForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const bookTitle = document.getElementById('book-title').value;
   const authorName = document.getElementById('author-name').value;
-  bookCollection.add(bookTitle, authorName);
-  document.getElementById('book-title').value = '';
-  document.getElementById('author-name').value = '';
-  bookCollection.display();
+  if (bookTitle === '' || authorName === '') {
+    alert('Please fill all the fields before submitting');
+  } else {
+    bookCollection.add(bookTitle, authorName);
+    document.getElementById('book-title').value = '';
+    document.getElementById('author-name').value = '';
+    bookCollection.display();
+  }
 });
