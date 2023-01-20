@@ -40,7 +40,8 @@ class BookCollection {
       bookDiv.id = `book-${book.id}`;
       bookDiv.innerHTML = `
             <h2 class="author-name">"${book.title}"</h2>
-            <h3 class="book-title">by- ${book.author}</h3>
+            <h2 class="author-name">By</h2>
+            <h3 class="book-title"> ${book.author}</h3>
             <button type="submit" id="remove-button">Remove</button>
         `;
       const removeButton = bookDiv.querySelector('#remove-button');
