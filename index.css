@@ -1,16 +1,12 @@
 body {
   font-family: Arial, sans-serif;
   padding: 0;
-  display: flex;
   margin: 0;
   width: 610px;
-  min-height: 100vh;
   height: min-content;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 
-.book-list {
+.add-book {
   display: none;
 }
 
@@ -51,16 +47,11 @@ h1 {
 
 #add-book-form {
   display: flex;
+  margin-top: -5rem;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
   gap: 1rem;
-  align-items: center;
-}
-
-.add-book {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -72,10 +63,6 @@ h1 {
 #add-book-form label {
   margin-right: 10px;
   border: 1px solid;
-}
-
-#footer {
-  margin-top: auto;
 }
 
 h2 {
@@ -116,22 +103,27 @@ a {
   text-decoration: none;
 }
 
-#books-link {
-  border-right: 2px solid;
-  border-color: black;
-  padding-right: 10px;
+#contact-info-link {
   color: black;
 }
 
-#add-book-link {
+#books-link {
   border-right: 2px solid;
   border-color: blue;
   padding-right: 10px;
   color: blue;
 }
 
-#contact-info-link {
+#add-book-link {
+  border-right: 2px solid;
+  border-color: black;
+  padding-right: 10px;
   color: black;
+}
+
+#footer {
+  position: relative;
+  top: 55px;
 }
 
 .dugmici {

@@ -1,9 +1,13 @@
 body {
   font-family: Arial, sans-serif;
   padding: 0;
+  display: flex;
   margin: 0;
   width: 610px;
+  min-height: 100vh;
   height: min-content;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .add-book {
@@ -22,26 +26,26 @@ h1 {
 }
 
 #book-list {
+  width: 80%;
+  height: 262px;
   display: flex;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: 1px solid;
-    height: 262px;
-    overflow-y: scroll;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid;
+  overflow-y: scroll;
 }
 
 .book {
-  width: -webkit-fill-available;
-  /* height: 1rem; */
+  width: 30rem;
+  height: 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   align-content: center;
-  padding: 5px;
-  border-bottom: 1px solid;
+  padding: 3px;
 }
 
 .book:nth-child(even) {
@@ -125,8 +129,7 @@ a {
 }
 
 #footer {
-  position: relative;
-  top: 55px;
+  margin-top: auto;
 }
 
 .dugmici {
