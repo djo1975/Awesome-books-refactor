@@ -60,7 +60,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Mladan Ilic <a name="about-project"></a>
+# 📖 Awesome-book es-6 <a name="about-project"></a>
 *In this project, you will restructure your Awesome books app code. The goal is to make it more organized by using modules. You will also practice the ES6 syntax that you have learned.
 
 ## 🛠 Built With <a name="built-with"></a>
