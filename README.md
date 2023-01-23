@@ -60,8 +60,8 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Mladan Ilic Alice Mirigo Boniface Dennis<a name="about-project"></a>
-**Awesome books** In this project, you will build a basic website that allows users to add/remove books from a list. You will achieve that by using JavaScript objects and arrays. You will also need to dynamically modify the DOM and add basic events.
+# 📖 Awesome-book es-6 <a name="about-project"></a>
+*In this project, you will restructure your Awesome books app code. The goal is to make it more organized by using modules. You will also practice the ES6 syntax that you have learned.
 
 ## 🛠 Built With <a name="built-with"></a>
 Use HTML/CSS
@@ -110,7 +110,7 @@ Use JavaScript events.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://alicemirigo92.github.io/Awesome-book/)
+- [Live Demo Link](https://djo1975.github.io/Awesome-books-refactor/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,8 +207,6 @@ Example:
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Mladan Ilic**
-
-👤 **Alice Mirigo**
 
 - GitHub: [@githubhandle]()
 - Twitter: [@twitterhandle]()
