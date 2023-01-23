@@ -2,11 +2,11 @@
 /* eslint-disable no-unused-vars */
 import { BookCollection } from './book-collection.js';
 
-export function addBookForm() {
-  const addBookForm = document.getElementById('add-book-form');
+export const addBookForm = () => {
+  const addBookFormEl = document.getElementById('add-book-form');
   const bookCollection = new BookCollection();
-  addBookForm.addEventListener('submit', (e) => {
-    e.preventDefault();
+  addBookFormEl.addEventListener('submit', (event) => {
+    event.preventDefault();
     const bookTitle = document.getElementById('book-title').value;
     const authorName = document.getElementById('author-name').value;
     if (bookTitle === '' || authorName === '') {
@@ -19,4 +19,4 @@ export function addBookForm() {
       bookCollection.display();
     }
   });
-}
+};
